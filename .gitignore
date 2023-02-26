@@ -130,3 +130,6 @@ dmypy.json
 
 #tmp files
 tmp/
+
+#others
+catboost_info/
