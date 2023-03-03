@@ -14,11 +14,10 @@ repos:
   rev: 1.6.3
   hooks:
     - id: nbqa-black
-      args: ["--nbqa-diff"]
-    - id: nbqa-black
+      args: [--line-length=72]
     - id: nbqa-flake8
       args: ["--nbqa-diff"]
     - id: nbqa-pyupgrade
       args: ["--py310-plus"]
     - id: nbqa-isort
-      args: ["--profile", "black"]
+      args: [--line-length=72]
