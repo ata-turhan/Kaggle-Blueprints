@@ -20,3 +20,5 @@ repos:
       args: ["--nbqa-diff"]
     - id: nbqa-pyupgrade
       args: ["--py310-plus"]
+    - id: nbqa-isort
+      args: ["--profile", "black"]
